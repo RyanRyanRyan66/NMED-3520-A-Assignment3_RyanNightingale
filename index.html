@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <title> WIZARD BATTLE: Neighbour Edition </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+
+
+
+
+
+
+    </head>
+     <body>
+       
+        <div class="game-container">
+            <div class="score">Orbs Stopped: 0</div>
+            <div class="time-left">Time: 20s</div>
+            <div class="game-message"></div>
+
+            <div class= "tower">
+                <img src="images/wizardTowerLeft.png" id="tower-left" class="tower left" alt="Left Tower">
+                <img id="tower-left-changed" src="images/wizardTowerLeftChanged.png" id="tower-left-changed" class="tower left change" alt="Changed Left Tower" style="display: none;">
+                <img src="images/towerDestroyed.png" id="tower-destroyed" class="tower left" alt="Destroyed Tower" style="display: none;">
+            <img src="images/wizardTowerRight.png" class="tower right" alt="Right Tower">
+        </div>
+
+        <div class="health">
+            <span>Health: </span><span id="health-counter">60</span>  
+        </div>
+
+
+            
+          
+            <img src="images/wizardLeft.png" id="wizard-left" class="wizard left" alt="Left Wizard">
+            
+            <img src="images/wizardRight.png" id="wizard-right" class="wizard right" alt="Right Wizard">
+
+            
+       
+            <div class="projectiles-container"></div>
+
+
+
+
+            <div id="game-text" class="game-text">Oh no! Your evil wizard neighbor "Balthar Dinkleberg The Third" is jealous of your wizard tower and has casted a sorcery to destroy it! Stop his magic orbs from hitting your tower. [click on them]</div>
+
+
+
+
+            <button id="start-button" class="game-button">Start Game</button>
+<button id="restart-button" class="game-button" style="display:none;">Restart Game</button>
+           
+          </div>
+ 
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+   
+        <script   src="https://code.jquery.com/jquery-3.7.1.min.js"   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="   crossorigin="anonymous"></script>
+        <script src='js/scripts.js'></script>
+   
+
+
+
+
+</body>
+
+
+</html>
